@@ -1,0 +1,38 @@
+< html >
+< głowa >
+
+< typ skryptu  =' text/javascript ' >
+
+funkcja  klient ( nazwisko_k , imie_k , zawod_k )
+{
+to . nazwisko = nazwisko_k ;
+to . imie = imie_k ;
+to . Zawod = zawod_k ;
+
+}
+
+klient . prototyp . wypisz  =  funkcja ( )
+{
+    alert ( this . nazwisko  + ' ' +  this . imie +  ' ' +  this . zawod ) ;
+} ;
+
+var  osoba1  =  nowy  klient ( 'Kowalski' , 'Jan' , 'kierowca' ) ;
+var  osoba2  =  nowy  klient ( 'Nowak' , 'Anna' , 'sekretarka' ) ;
+var  osoba3  =  nowy  klient ( 'Kordian' , 'Kozłowski' , 'jajkarz' ) ;
+var  osoba4  =  nowy  klient ( 'Czarnul' , 'Mateusz' , 'mleczarz' ) ;
+var  osoba5  =  nowy  klient ( 'Paweł' , 'Ostaszewski' , 'miodziarz' ) ;
+
+osoba1 . wypisz ( ) ;
+osoba2 . wypisz ( ) ;
+osoba3 . wypisz ( ) ;
+osoba4 . wypisz ( ) ;
+osoba5 . wypisz ( ) ;
+
+dokument . napisać ( "dostęp do wgladu" + "<br>" ) ;
+
+</ skrypt >
+
+
+
+</ głowa >
+</ html >
