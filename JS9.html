@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+    <script>
+       function przeciw(a,b)
+       {
+       var a_licz = parseFloat(a);
+       var b_licz = parseFloat(b);
+
+       var pitagoras = Math.pow(a_licz,2) + Math.pow(b_licz,2);
+       var pitagoras1 = Math.sqrt(pitagoras);
+
+       document.getElementsByName('przeciwprostokątna')[0].value = pitagoras1;
+       }
+    </script>
+    <form name="formulaz" onsubmit="przeciw(this.liczba1.value, this.liczba2.value); return false">
+        Pitagoras<br>
+
+        Podaj a: <input type="number" name="liczba1"><br>
+        Podaj b: <input type="number" name="liczba2"><br>
+
+        <input type="submit" value="oblicz"><br>
+        przeciwprostokątna: <input name="przeciwprostokątna">
+
+
+</body>
