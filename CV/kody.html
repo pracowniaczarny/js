@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="kody.css" >
+    </head>
+    <body>
+        <div id="logo">Dzieła Sztuki</div><br><br>
+        <div id="onekode">
+            <textarea  cols="85" rows="45">
+                
+        <!doctype html>
+        <html>
+        <body>
+        
+        <?php
+        
+        for($i=1; $i<=100; $i++) { 
+            
+        
+        $liczba = rand(0,100);
+        if($liczba%2==0){
+        echo $liczba;
+        echo "<br>";
+        }
+        }
+        ?>
+        
+        
+        </html>
+        </body>
+    </body>
+</html>
+            </textarea>
+        </div>
+        <div id="twokode">
+            <textarea  cols="85" rows="45">
+                <!doctype html>
+                <html>
+                <body>
+                
+                
+                <?php
+                    $pobierz = $_POST['name'];
+                    for($i=1; $i<$pobierz; $i++) { 
+                    
+                
+                        $liczba = rand(0,100);
+                        if($liczba%2==0){
+                        echo $liczba;
+                        echo "<br>";
+                        }
+                        }
+                   
+                ?>
+                <html>
+                   <body>
+                   
+                      <form action = "" method = "POST">
+                         Podaj liczbę: <input type = "number" name = "name" />
+                         <input type = "submit" />
+                      </form>
+                      
+                   </body>
+                </html>
+                
+                
+                
+                </html>
+
+
+
