@@ -1,0 +1,39 @@
+.gora {
+    background-color: #2dd46d;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  
+  .column {
+    float: left;
+    padding: 10px;
+    height: 300px; 
+  
+  
+    width: 25%;
+  }
+  
+  
+  .srodek {
+    width: 50%;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .dol {
+    background-color: #c72195;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+    .column.side, .srodek {
+      width: 100%;
+    }

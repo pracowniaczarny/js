@@ -1,0 +1,27 @@
+*{
+    margin:0;
+}
+
+body{
+    background-color: slateblue;
+}
+
+.banner{
+    margin: 20px;
+    text-align: center;
+}
+
+.banner > li{
+    display:  inline;
+}
+
+.tresc{
+    display:flex;
+}
+
+.kolumna{
+    height: 300px;
+    width: 33%;
+    background-color: springgreen;
+    flex: 1;
+}
